@@ -1,0 +1,15 @@
+/* css reset */
+@import './reset.css';
+body{
+    border: green solid 3px;
+    height: 100vh;
+}
+[id^="demo-"]{
+    border: red solid 1px;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
